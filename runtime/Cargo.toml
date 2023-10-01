@@ -100,6 +100,11 @@ pallet-evm-precompile-sha3fips = { git = "https://github.com/paritytech/frontier
 pallet-evm-precompile-simple = { git = "https://github.com/paritytech/frontier", branch = "polkadot-v1.0.0", default-features = false }
 pallet-hotfix-sufficients = { git = "https://github.com/paritytech/frontier", branch = "polkadot-v1.0.0", default-features = false }
 
+# Pallet Contracts
+pallet-contracts = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v1.0.0"  }
+pallet-contracts-primitives = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v1.0.0" }
+pallet-insecure-randomness-collective-flip = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v1.0.0" }
+
 [features]
 default = [
 	"std",
@@ -175,6 +180,10 @@ std = [
 	"pallet-evm-precompile-sha3fips/std",
 	"pallet-evm-precompile-simple/std",
 	"pallet-hotfix-sufficients/std",
+	# Pallet Contracts
+	"pallet-contracts-primitives/std",
+	"pallet-contracts/std",
+	"pallet-insecure-randomness-collective-flip/std",
 ]
 
 runtime-benchmarks = [
@@ -204,6 +213,7 @@ runtime-benchmarks = [
 	"pallet-multisig/runtime-benchmarks",
 	"pallet-preimage/runtime-benchmarks",
 	"pallet-scheduler/runtime-benchmarks",
+	"pallet-contracts/runtime-benchmarks",
 ]
 
 try-runtime = [
@@ -239,5 +249,7 @@ try-runtime = [
   	"pallet-ethereum/try-runtime",
   	"pallet-base-fee/try-runtime",
 	"pallet-dynamic-fee/try-runtime",
-	"pallet-hotfix-sufficients/try-runtime"
+	"pallet-hotfix-sufficients/try-runtime",
+	"pallet-contracts/try-runtime",
+	"pallet-insecure-randomness-collective-flip/try-runtime",
 ]

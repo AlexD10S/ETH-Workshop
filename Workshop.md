@@ -114,9 +114,9 @@ Follow the steps, upload the .contract file and deploy your Smart Contract local
 
 
 ### Deploy in Testnets/Production
-There is a testnet that shows you how to connect your parachain in Rococo (The Polkadot Testnet); [Acquire a testnet slot in Rococo](https://docs.substrate.io/tutorials/build-a-parachain/acquire-a-testnet-slot/).
+- There is a testnet that shows you how to connect your parachain in Rococo (The Polkadot Testnet); [Acquire a testnet slot in Rococo](https://docs.substrate.io/tutorials/build-a-parachain/acquire-a-testnet-slot/).
 
-If you just want to deploy a WASM smart contract in Rococo testnet, there is already a Testnet Parachain that support this
+- If you just want to deploy a WASM smart contract in Rococo testnet, there is already a Testnet Parachain that support this
 Rococo Contracts, you can connect there with the Contracts UI: https://contracts-ui.substrate.io/?rpc=wss://rococo-contracts-rpc.polkadot.io
 
 Get some ROC tokens with the Faucet: https://use.ink/faucet/ or https://paritytech.github.io/polkadot-testnet-faucet/ 
@@ -129,8 +129,19 @@ https://wiki.polkadot.network/docs/build-smart-contracts#smart-contract-environm
 
 
 ### Deploy Solidity Smart Contract in EVM pallet
+Let's try now to deploy our Solidity Smart Contract directly using the EVM pallet.
+We have an example in examples/contract-erc20
+```sh 
+cd examples/contract-erc20
+```
 
-Follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/).
+This directory contains typescript script to execute the different steps to deploy and interact with a contract.
+
+Use `npm i` to install dependencies. To create an ERC20 contract,
+execute `node_modules/.bin/ts-node create-erc20.ts` while your
+template node is running
+
+More information follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/) or read the [Moonbeam documentation](https://docs.moonbeam.network/learn/features/eth-compatibility/).
 
 
 ### Technical Support

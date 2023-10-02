@@ -15,6 +15,8 @@
 
 👉 [Hybrid Chains: Every Chain Should Have Smart Contracts](https://www.rob.tech/blog/hybrid-chains/)
 
+👉[Moonbeam documentation - ETH Compatibility](https://docs.moonbeam.network/learn/features/eth-compatibility/)
+
 
 ## Tools
 👉 [Guide to install Rust](https://docs.substrate.io/install/rust-toolchain/)
@@ -47,3 +49,4 @@
 👉 [NFTs on Polkadot](https://polkadot-nfts-learning-hub.vercel.app/)
 👉 [XCM (Interoperability) on Polkadot](https://paritytech.github.io/xcm-docs/)
 👉 [Substrate StackExchange - Technical Support](https://substrate.stackexchange.com/)
+👉 [WrappedEVM Eth RPC compatibility layer - Polkadot Forum](https://forum.polkadot.network/t/wrappedevm-eth-rpc-compatibility-layer/2775)

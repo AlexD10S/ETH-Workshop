@@ -80,6 +80,8 @@ And the Relay chain here: https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9900#
 
 ### Deploy Solidity Smart Contract in Smart Contracts pallet
 
+You need Solang installed, go to [Install Solang](https://solang.readthedocs.io/en/v0.3.2/installing.html)
+
 ### Deploy Solidity Smart Contract in EVM pallet
 
 Follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/)

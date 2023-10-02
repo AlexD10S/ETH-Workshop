@@ -73,28 +73,64 @@ zombienet-macos spawn zombienet-config.toml -p native
 
 Well done you have a parachain running! 🍻🍻
 You can see your parachain on:
-https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9910#/explorer 
+https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9944#/explorer 
 
 And the Relay chain here: https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9900#/explorer 
 
 
 ### Deploy Solidity Smart Contract in Smart Contracts pallet
 
-You need Solang installed, go to [Install Solang](https://solang.readthedocs.io/en/v0.3.2/installing.html)
+You need Solang installed, go to [Install Solang](https://solang.readthedocs.io/en/v0.3.2/installing.html).
 
-### Deploy Solidity Smart Contract in EVM pallet
+Once installed:
+```sh 
+cd examples
 
-Follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/)
+solang new myToken --target polkadot
+```
+
+Replace the flipper.sol with your contract (I took ERC20 from https://docs.openzeppelin.com/contracts/4.x/wizard).
+
+Change the `solang.toml` configuration file to use your name and your imports if you need in:
+For this example we need the `openzeppelin-contracts` library (https://github.com/OpenZeppelin/openzeppelin-contracts).
+Install it
+```sh 
+cd myToken
+
+npm install @openzeppelin/contracts
+```
+And change the config file to import it:
+``` 
+solang compile
+```
+
+Compiled, you will see a WASM file and a .contract file that contains the metadata! 🍻🍻
+
+##### Let's deploy it locally
+
+https://contracts-ui.substrate.io/
+
+Follow the steps, upload the .contract file and deploy your Smart Contract locally.
 
 
 ### Deploy in Testnets/Production
 There is a testnet that shows you how to connect your parachain in Rococo (The Polkadot Testnet); [Acquire a testnet slot in Rococo](https://docs.substrate.io/tutorials/build-a-parachain/acquire-a-testnet-slot/).
 
 If you just want to deploy a WASM smart contract in Rococo testnet, there is already a Testnet Parachain that support this
+Rococo Contracts, you can connect there with the Contracts UI: https://contracts-ui.substrate.io/?rpc=wss://rococo-contracts-rpc.polkadot.io
+
+Get some ROC tokens with the Faucet: https://use.ink/faucet/ or https://paritytech.github.io/polkadot-testnet-faucet/ 
+And deploy the Smart Contract exactly the same way you did it.
 
 
-List of Parachains to deploy on Production:
+
+If you want to deploy in Production, see this list of Parachains to deploy on Production:
 https://wiki.polkadot.network/docs/build-smart-contracts#smart-contract-environments
+
+
+### Deploy Solidity Smart Contract in EVM pallet
+
+Follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/).
 
 
 ### Technical Support

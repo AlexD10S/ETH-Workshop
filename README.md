@@ -34,7 +34,7 @@ zombienet-macos spawn zombienet-config.toml -p native
 ```
 
 You can see your parachain running on:
-https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9910#/explorer 
+https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9944#/explorer 
 
 And the Relay chain here: https://polkadot.js.org/apps/?rpc=ws://127.0.0.1:9900#/explorer   
 

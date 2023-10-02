@@ -17,7 +17,7 @@ default_command = "./bin/polkadot"
   extra_args = [ "-lparachain=debug" ]
 
 [[parachains]]
-id = 1000
+id = 2000
 add_to_genesis = true
 cumulus_based = true
 chain = "local"
@@ -25,7 +25,7 @@ chain = "local"
   [[parachains.collators]]
   name = "frontier-parachain-collator01"
   command = "./target/release/frontier-parachain-node"
-  ws_port = 9910
+  ws_port = 9944
   args = [""]
 
 [types.Header]

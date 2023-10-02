@@ -13,6 +13,9 @@
 
 👉 [Fundamentals: WASM vs. EVM and Why Aleph Zero Explores the New Frontier](https://alephzero.org/blog/fundamentals-wasm-evm-aleph-zero-explores-new-frontier/)
 
+👉 [Hybrid Chains: Every Chain Should Have Smart Contracts](https://www.rob.tech/blog/hybrid-chains/)
+
+
 ## Tools
 👉 [Guide to install Rust](https://docs.substrate.io/install/rust-toolchain/)
 
@@ -23,6 +26,13 @@
 👉 [Polkadot JS UI](https://polkadot.js.org/apps/#/explorer)
 
 👉 [Polkadot JS Library](https://polkadot.js.org/docs/)
+
+👉 [Contracts UI - Deploy WASM Smart Contracts](https://contracts-ui.substrate.io/)
+
+## Other Resources
+👉 [Solo Chain template with Pallet Contracts](https://github.com/paritytech/substrate-contracts-node)
+👉 [Solo Chain template with EVM](https://github.com/substrate-developer-hub/frontier-node-template)
+👉 [Rococo Faucet - Get ROC tokens](https://use.ink/faucet/)
 
 ## Videos
 

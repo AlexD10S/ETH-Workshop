@@ -137,8 +137,8 @@ cd examples/contract-erc20
 
 This directory contains typescript script to execute the different steps to deploy and interact with a contract.
 
-Use `npm i` to install dependencies. To create an ERC20 contract,
-execute `node_modules/.bin/ts-node create-erc20.ts` while your
+Use `npm i` to install dependencies. To create an ERC20 contract, and interact with it via RPC
+execute `node_modules/.bin/ts-node create-erc20-rpc.ts` while your
 template node is running
 
 More information follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/) or read the [Moonbeam documentation](https://docs.moonbeam.network/learn/features/eth-compatibility/).

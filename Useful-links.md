@@ -31,6 +31,8 @@
 
 👉 [Contracts UI - Deploy WASM Smart Contracts](https://contracts-ui.substrate.io/)
 
+👉 [useInk - Build React dApps interact with Pallet Contracts](https://use.ink/frontend/overview)
+
 ## Other Resources
 👉 [Solo Chain template with Pallet Contracts](https://github.com/paritytech/substrate-contracts-node)
 👉 [Solo Chain template with EVM](https://github.com/substrate-developer-hub/frontier-node-template)

@@ -10,6 +10,8 @@
 # The cache for chain data in container
 .local
 
+bin/*
+
 # The cache for docker container dependency
 /.cargo/config
 

@@ -43,7 +43,7 @@ Commands:
 
 You may use a reference implementation from the folder `zombienet-config` or make your own. We provide a simple configuration for you called [zombienet-config.toml](../zombienet-config.toml) which spins up two validators for the relay chain, and one collator for your parachain to get you quickly upto speed.
 
-⚠️ Take note: the path of the polkadot executable used there is `../bin/polkadot` which means you need to have a folder called `bin` outside the repository directory which contains your compiled polkadot binary which must be named as `polkadot`. Also please take care to compile the correct version of `polkadot` when testing out on your machine. You can do so by cloning `polkadot` and then checking out the appropriate branch that corresponds to the substrate/cumulus version used to build the template.
+⚠️ Take note: the path of the polkadot executable used there is `bin/polkadot` which means you need to have a folder called `bin` in the repository directory which contains your compiled polkadot binary which must be named as `polkadot`. Also please take care to compile the correct version of `polkadot` when testing out on your machine. You can do so by cloning `polkadot` and then checking out the appropriate branch that corresponds to the substrate/cumulus version used to build the template.
 
 
 

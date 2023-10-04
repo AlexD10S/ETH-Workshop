@@ -149,8 +149,11 @@ More information follow the tutorial [Access EVM accounts](https://docs.substrat
 Follow this [Guide](https://use.ink/getting-started/setup) to install the ink! CLI used to create and deploy an ink! smart contract.
 
 ```sh 
-cd examples
+cd .. //Let's go out of our repository (is already a rust project and can interfer with our dependencies)
+```
 
+Create the contract:
+```sh 
 cargo contract new flipper
 ```
 
@@ -160,7 +163,25 @@ flipper
   └─ Cargo.toml            <-- Rust Dependencies and ink! Configuration
   └─ .gitignore
 
+You can compile
+```sh 
+cd flipper
 
+cargo contract build
+``` 
+And it will create the following:
+target
+  └─ ink
+    └─ flipper.contract
+    └─ flipper.wasm
+    └─ flipper.json
+
+flipper.contract is the one you will have to upload in https://contracts-ui.substrate.io/ to deploy your Smart Contract as we did with the Solidity example.
+
+You can also run the tests:
+```sh 
+cargo tests
+```
 ### Technical Support
 https://substrate.stackexchange.com/
 https://wiki.polkadot.network/docs/community

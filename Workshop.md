@@ -145,6 +145,21 @@ Or you can deploy with your Smart Contract using Remix and interact using Metama
 
 More information follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/) or read the [Moonbeam documentation](https://docs.moonbeam.network/learn/features/eth-compatibility/).
 
+### ink! Smart Contract
+Follow this [Guide](https://use.ink/getting-started/setup) to install the ink! CLI used to create and deploy an ink! smart contract.
+
+```sh 
+cd examples
+
+cargo contract new flipper
+```
+
+This command will create a new project folder named flipper with this content:
+flipper
+  └─ lib.rs                <-- Contract Source Code
+  └─ Cargo.toml            <-- Rust Dependencies and ink! Configuration
+  └─ .gitignore
+
 
 ### Technical Support
 https://substrate.stackexchange.com/

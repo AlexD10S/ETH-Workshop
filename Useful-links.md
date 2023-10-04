@@ -17,7 +17,7 @@
 
 👉[Moonbeam documentation - ETH Compatibility](https://docs.moonbeam.network/learn/features/eth-compatibility/)
 
-
+👉 [ink! Smart Contract](https://use.ink/)
 ## Tools
 👉 [Guide to install Rust](https://docs.substrate.io/install/rust-toolchain/)
 
@@ -37,7 +37,7 @@
 👉 [Solo Chain template with Pallet Contracts](https://github.com/paritytech/substrate-contracts-node)
 👉 [Solo Chain template with EVM](https://github.com/substrate-developer-hub/frontier-node-template)
 👉 [Rococo Faucet - Get ROC tokens](https://use.ink/faucet/)
-
+👉 [ink! Smart Contract](https://use.ink/)
 ## Videos
 
 👉 [The Decisions of Polkadot - Shawn Tabrizi - ETH Denver 2023](https://www.youtube.com/watch?v=mQckxpMUBo8)

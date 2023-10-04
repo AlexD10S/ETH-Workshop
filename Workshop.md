@@ -139,7 +139,9 @@ This directory contains typescript script to execute the different steps to depl
 
 Use `npm i` to install dependencies. To create an ERC20 contract, and interact with it via RPC
 execute `node_modules/.bin/ts-node create-erc20-rpc.ts` while your
-template node is running
+template node is running.
+
+Or you can deploy with your Smart Contract using Remix and interact using Metamask: [How to connect substrate node to metamask?](https://substrate.stackexchange.com/questions/5473/how-to-connect-substrate-node-to-metamask).
 
 More information follow the tutorial [Access EVM accounts](https://docs.substrate.io/tutorials/integrate-with-tools/access-evm-accounts/) or read the [Moonbeam documentation](https://docs.moonbeam.network/learn/features/eth-compatibility/).
 

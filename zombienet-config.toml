@@ -17,7 +17,7 @@ default_command = "./bin/polkadot"
   extra_args = [ "-lparachain=debug" ]
 
 [[parachains]]
-id = 2000
+id = 1000
 add_to_genesis = true
 cumulus_based = true
 chain = "local"

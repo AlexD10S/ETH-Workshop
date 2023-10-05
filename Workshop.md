@@ -100,6 +100,8 @@ cd myToken
 npm install @openzeppelin/contracts
 ```
 And change the config file to import it:
+`import_map = { "@openzeppelin" = "./node_modules/@openzeppelin"}`
+
 ``` 
 solang compile
 ```

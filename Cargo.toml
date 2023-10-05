@@ -6,6 +6,5 @@ members = [
 	"node",
 	"pallets/*",
 	"runtime",
-	"examples/flipper",
 ]
 resolver = "2"
